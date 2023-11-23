@@ -1,16 +1,210 @@
-table,
-td {
-  border: 1px solid #333;
+
+/* Background colour and fonting the whold page */ 
+body {
+  background-color: wheat;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-thead,
-tfoot {
-  background-color: #333;
-  color: #fff;
+/* The very top title */
+h1 {
+  white-space: pre;
+  font-family: 'BioRhyme Expanded', serif;
+  text-align: center;
+  background-color: burlywood;
+  padding: 20px;
+  margin: -10px;
+  margin-bottom: 20px;
 }
-table{
-    margin-left: 40px
+
+/* So the page can scroll smoothly when clicking on the nav bar */
+html {
+  scroll-behavior: smooth;
 }
+
+/* Below is styling for the navigation bar */
+nav ul {
+  white-space: pre;
+  justify-content: center;
+  display: flex;
+  font-size: larger;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+  list-style-type: none;
+}
+
+nav li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+nav li a:hover {
+  background-color: burlywood;
+  color: wheat;
+}
+
+/* For centering the first image and the YouTube video */
+.meow {
+  border: 2px solid black;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  border: 3px ridge #333;
+  border-radius: 4px;
+  padding: 7px;
+}
+
+/* Styling for the second image */
+.Vancouver {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  border: 3px ridge #333;
+  border-radius: 4px;
+  padding: 7px;
+}
+
+/* For centering all the figcaptions */
+figcaption {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Centering all the H2 */
+h2 {
+  text-align: center;
+}
+
+/* About Me Section */
+section#AbtMe {
+  border: 2px solid black;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px black;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.TitleMe {
+  padding-top: 10px;
+  height: 40px;
+  background-color: burlywood;
+  border-bottom: 2px solid black;
+  border-top-right-radius: 13px;
+  border-top-left-radius: 13px;
+  margin-top: 0px;  
+}
+
+/* Body text under about me */
+p {
+  white-space: pre;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Styling for the hobbies list */
+ul.Hobbies-List {
+  width: 300px;
+  padding: 15px;
+  padding-left: 60px;
+  background: white;
+  border: 2px solid black;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px 2px black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Styling for the table of music Albums */
+table, td {
+  border: 3px solid #000000;
+}
+
+table {
+  background: #fff;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
 th, td {
-    padding:9px;
+    padding: 10px;
+}
+
+tr:nth-child(1)
+{
+  background-color: burlywood;
+  color:black;
+}
+
+aside {
+  text-align: center;
+}
+
+/* Goals Section */
+section#Goals {
+  background: white;
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 2px 2px 2px 2px black;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: inside;
+  margin-bottom: 40px;
+}
+
+.TitleToo {
+  background-color: burlywood;
+  padding-top: 10px;
+  height: 35px;
+  background-color: burlywood;
+  border-bottom: 2px solid black;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  margin-top: 0px;  
+}
+
+/* Contact Info Section */
+ul.Contact-Info {
+  display: inline-block;
+  text-align: left;
+  list-style-type: none;
+  margin: -5px 2.5em 50px 0px;
+}
+
+div.Info {
+text-align:center
+}
+
+li a {
+  display: block;
+  padding: 2px 10px;
+  text-decoration: none;
+  color: #000;
+
+}
+
+.odd {
+  background-color: #fff;
+}
+
+.even {
+  background-color: burlywood;
 }
