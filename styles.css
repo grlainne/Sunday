@@ -273,3 +273,7 @@ ol#numbers {
   column-count: 4;
   column-gap: 20px;
 }
+
+li:nth-child(odd) {
+  color:red;
+}
