@@ -274,6 +274,6 @@ ol#numbers {
   column-gap: 20px;
 }
 
-li:nth-child(odd) {
-  color:red;
+.chicken li:nth-child(odd) {
+  color: red;
 }
