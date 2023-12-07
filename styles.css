@@ -217,11 +217,13 @@ li a {
   border: none;
   padding: 10px 20px;
   border-radius: 15px;
+  color: #000;
 }
 
 .submit:hover {
   background-color: red;
   transition: 0.3s;
+  color: #000;
 }
 
 .btn-counter {
@@ -232,6 +234,7 @@ li a {
   border: none;
   padding: 10px 20px;
   box-shadow: 0 9px rgb(155, 155, 155);
+  color: #000;
 }
 
 .btn-counter:hover {
