@@ -34,4 +34,5 @@ document.getElementById("feet").innerText = `© ${currentYear} Gail Salinas`;
         numberlist.appendChild(listitems)
         if(even) listitems.classList.add("Even")
         else listitems.classList.add("Odd")
-    }
+}
+
